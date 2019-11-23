@@ -1,11 +1,9 @@
 function playAudio(e) {
-  console.log(e);
   if (e.type === "click") {
     audio = document.querySelector('audio[data-key="13"]');
   } else if (e.type === "keydown") {
     audio = document.querySelector('audio[data-key="' + e.keyCode + '"]');
   }
-  // const audio = document.querySelector('audio[data-key="' + e.keyCode + '"]');
   if (!audio) {
     return;
   }
