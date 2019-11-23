@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #000;
+  background: rgb(2, 2, 2);
   font-family: sans-serif;
 }
 h1 {
@@ -24,8 +24,8 @@ main {
   height: 200px;
   width: 200px;
   background-image: url("./img/dai.png");
-  background: cover;
-  background-size: 200px;
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
   border: 0;
   box-shadow: 3px 4px 8px rgba(255, 255, 255, 1);
   transition: box-shadow 0.17s ease-out, transform 0.1s;
