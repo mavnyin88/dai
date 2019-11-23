@@ -22,4 +22,4 @@ var transition = document.querySelector(".button");
 transition.addEventListener("transitionend", removeTransition);
 
 window.addEventListener("keydown", playAudio, false);
-document.querySelector(".button").addEventListener("click", playAudio, false);
+transition.addEventListener("click", playAudio, false);
